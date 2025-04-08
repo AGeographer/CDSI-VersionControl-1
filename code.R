@@ -1,5 +1,8 @@
-install.packages("palmerpenguins")
+#install.packages("palmerpenguins")
+
+library(tidyverse)
 
 penguins <- palmerpenguins::penguins
 
-penguins
+penguins %>% 
+  glimpse()
